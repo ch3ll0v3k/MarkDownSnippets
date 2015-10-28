@@ -9,6 +9,11 @@
 - [x] D) **This text will be _italic_ inside bold**
 - [x] E) ~~Mistaken text.~~
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 ----
 ##### -> Unordered lists (1) <- H5-Header
 
@@ -41,11 +46,6 @@
     * This is indented four spaces, because it's two spaces further than the item above.
     * You might want to consider making a new list.
 3. Item 3
-
-----
-##### -> Links <- H5-Header
-
-[Visit GitHub!](https://www.github.com).
 
 ----
 ##### -> Inline formats <- H5-Header
@@ -107,25 +107,58 @@ def Foo():
 ```c
 #include <stdio.h>
 
-int main(int argc, char[] *argv){
-    
-    int a = 5;
-    int b = 5;
-    int c = a+b;
-
-    return c;
+int main()
+{
+    int a, b, c;
+    printf("Enter the first value:");
+    scanf("%d", &a);
+    printf("Enter the second value:");
+    scanf("%d", &b);
+    c = a + b;
+    printf("%d + %d = %d\n", a, b, c);
+    return 0;
 }
 
 ```
 ----
+##### -> Tables <- H5-Header
 
+* create tables by assembling a list of words
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
+----
+* For aesthetic purposes, you can also add extra pipes on the ends:
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
+----
+* Note that the dashes at the top don't need to match the length of the header text exactly:
 
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
 
+----
+* You can also include inline Markdown such as links, bold, italics, or strikethrough:
 
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+
+----
+1. Finally, by including colons : within the header row, you can define text to be 
+    1.  :left-aligned 
+    2.  right-aligned:
+    3.  :center-aligned:
 
 ----
 ----
@@ -136,23 +169,18 @@ int main(int argc, char[] *argv){
 
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+##### -> Links <- H5-Header
+
+[Visit GitHub!](https://www.github.com).
+
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 ----
-
-<button class="btn" type="button">Button button</button>
-<a class="btn" href="#" role="button">Link button</a>
-
-====
-
-
-<div class="clearfix">
-  <a class="btn btn-sm btn-with-count" href="#" role="button">
-    <span class="octicon octicon-eye"></span>
-    Watch
-  </a>
-  <a class="social-count" href="#">6</a>
-</div>
-
-====
 
 
 
