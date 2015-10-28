@@ -1,5 +1,6 @@
 # -> H1 Header <-
 
+:wink:
 ----
 ### -> CheckBoxes <- H3-Header
 
@@ -155,10 +156,17 @@ Content Cell  | Content Cell
 | Close     | _Closes_ a window     |
 
 ----
-1. Finally, by including colons : within the header row, you can define text to be 
-    1.  :left-aligned 
-    2.  right-aligned:
-    3.  :center-aligned:
+Finally, by including colons : within the header row, you can define text to be 
+
+1.  :left-aligned 
+2.  right-aligned:
+3.  :center-aligned:
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 ----
 ##### -> Images <- H5-Header
