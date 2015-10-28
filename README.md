@@ -28,7 +28,7 @@ Block-Background-Color-Box
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
 
-<button class="btn" type="button">Button button</button>
+<button class="btn" type="button" onclick="alert(1)">Button button</button>
 <a class="btn" href="#" role="button">Link button</a>
 
 
