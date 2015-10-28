@@ -21,10 +21,53 @@ Block-Background-Color-Box
 - [ ] C) **This text will be bold**
 - [x] D) **This text will be _italic_ inside bold**
 ```
+----
+
+##### -> Unordered lists (1) <- H5-Header
+
+```
+* A
+* B
+* C
+```
+----
+##### -> Unordered lists (2) <- H5-Header
+
+```
+- A
+- B
+- C
+```
+----
+
+##### -> Ordered lists (1) <- H5-Header
+
+```
+1. A
+2. B
+3. C
+```
+----
+
+##### -> Nested lists (1) <- H5-Header
+
+```
+1. Item 1
+  1. A corollary to the above item.
+  2. Yet another point to consider.
+2. Item 2
+  * A corollary that does not need to be ordered.
+    * This is indented four spaces, because it's two spaces further than the item above.
+    * You might want to consider making a new list.
+3. Item 3
+```
 
 ----
 
-#### -> Images <- H4-Header
+
+----
+
+##### -> Images <- H5-Header
 
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
