@@ -161,18 +161,14 @@ Content Cell  | Content Cell
     3.  :center-aligned:
 
 ----
-----
-----
-
-
 ##### -> Images <- H5-Header
 
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
-
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
+----
 ##### -> Links <- H5-Header
 
 [Visit GitHub!](https://www.github.com).
@@ -181,9 +177,15 @@ http://github.com - automatic!
 [GitHub](http://github.com)
 
 ----
+##### -> Blockquotes <- H5-Header
 
+As Kanye West said:
 
+> We're living the future so
+> the present is our past.
 
+----
+##### -> AAA <- H5-Header
 
 
 
