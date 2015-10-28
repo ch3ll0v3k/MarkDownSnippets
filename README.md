@@ -173,7 +173,7 @@ Finally, by including colons : within the header row, you can define text to be
 
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](http://github.com/images/logo.png)
 Format: ![Alt Text](url)
 
 ----
