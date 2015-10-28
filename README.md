@@ -26,9 +26,9 @@
 ----
 ##### -> Ordered lists (1) <- H5-Header
 
-- 1. A
-- 2. B
-- 3. C
+1. A
+2. B
+3. C
 
 ----
 ##### -> Nested lists (1) <- H5-Header
@@ -53,6 +53,8 @@
 Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
 
 ----
+----
+----
 ##### -> Code Block <- H5-Header
 
 ```
@@ -60,6 +62,57 @@ function test() {
   console.log("notice the blank line before this function?");
 }
 ```
+----
+##### -> Syntax highlighting <- H5-Header
+
+* javascript
+
+```javascript
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+----
+* css
+
+```css
+.class{
+    background-color: #f00;
+}
+#id{
+    background-color: #0f0;
+}
+
+```
+----
+* python
+
+```python
+import sys
+
+def Foo():
+
+    """ Comment """
+    a = 5;
+    b = 5;
+    c = a+b;
+
+    print(c)
+
+
+```
+----
+
+
+
+
+
+
+
+
+
+----
+----
 ----
 
 
