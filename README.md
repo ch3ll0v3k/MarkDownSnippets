@@ -107,7 +107,7 @@ def Foo():
 ```c
 #include <stdio.h>
 
-void main(int argc, char[] *args){
+int main(int argc, char[] *argv){
     
     int a = 5;
     int b = 5;
