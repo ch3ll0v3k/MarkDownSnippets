@@ -15,12 +15,12 @@ text
 ### -> CheckBoxes <- H3-Header
 
 Blocked-Background-Box
-'''
+```
 - [ ] A) Normal text
 - [x] B) **BOLD** text
 - [ ] C) Normal text
 - [ ] D) Normal text
-'''
+```
 
 
 
