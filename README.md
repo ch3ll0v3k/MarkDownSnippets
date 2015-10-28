@@ -5,10 +5,10 @@ text
 
 ## -> CheckBoxes <- H2-Header
 
-- [ ] A) Normal text
-- [x] B) **BOLD** text
-- [ ] C) Normal text
-- [ ] D) Normal text
+- [ ] A) This text will be normal
+- [x] B) *This text will be italic*
+- [ ] C) **This text will be bold**
+- [x] D) **This text will be _italic_ inside bold**
 
 ----
 
@@ -16,11 +16,12 @@ text
 
 Block-Background-Color-Box
 ```
-- [ ] A) Normal text
-- [x] B) **BOLD** text
-- [ ] C) Normal text
-- [ ] D) Normal text
+- [ ] A) This text will be normal
+- [x] B) *This text will be italic*
+- [ ] C) **This text will be bold**
+- [x] D) **This text will be _italic_ inside bold**
 ```
+
 ----
 
 #### -> Images <- H4-Header
