@@ -5,13 +5,13 @@
 
 Block-Background-Color-Box
 
-```
+
 - [ ] A) This text will be normal
 - [x] B) *This text will be italic*
 - [ ] C) **This text will be bold**
 - [x] D) **This text will be _italic_ inside bold**
 - [x] E) ~~Mistaken text.~~
-```
+
 ----
 ##### -> Unordered lists (1) <- H5-Header
 
