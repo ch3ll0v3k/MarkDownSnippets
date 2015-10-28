@@ -2,7 +2,6 @@
 text
 
 ----
-
 ## -> CheckBoxes <- H2-Header
 
 - [ ] A) This text will be normal
@@ -11,10 +10,10 @@ text
 - [x] D) **This text will be _italic_ inside bold**
 
 ----
-
 ### -> CheckBoxes <- H3-Header
 
 Block-Background-Color-Box
+
 ```
 - [ ] A) This text will be normal
 - [x] B) *This text will be italic*
@@ -22,7 +21,6 @@ Block-Background-Color-Box
 - [x] D) **This text will be _italic_ inside bold**
 ```
 ----
-
 ##### -> Unordered lists (1) <- H5-Header
 
 ```
@@ -42,10 +40,11 @@ Block-Background-Color-Box
 
 ##### -> Ordered lists (1) <- H5-Header
 
+```
 1. A
 2. B
 3. C
-
+```
 ----
 
 ##### -> Nested lists (1) <- H5-Header
@@ -60,11 +59,19 @@ Block-Background-Color-Box
     * You might want to consider making a new list.
 3. Item 3
 ```
+----
+##### -> Links <- H5-Header
+
+[Visit GitHub!](https://www.github.com).
+
 
 ----
 
 
 ----
+
+----
+
 
 ##### -> Images <- H5-Header
 
