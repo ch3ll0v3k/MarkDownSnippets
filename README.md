@@ -27,11 +27,23 @@ Block-Background-Color-Box
 
 ![images](http://www.spongebob-spiele.net/images/spongebob.png)
 
+----
 
-<button class="btn" type="button" onclick="alert(1)">Button button</button>
+<button class="btn" type="button">Button button</button>
 <a class="btn" href="#" role="button">Link button</a>
 
+====
 
+
+<div class="clearfix">
+  <a class="btn btn-sm btn-with-count" href="#" role="button">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="#">6</a>
+</div>
+
+====
 
 
 
