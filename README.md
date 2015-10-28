@@ -102,6 +102,22 @@ def Foo():
 
 ```
 ----
+* C
+
+```c
+#include <stdio.h>
+
+void main(int argc, char[] *args){
+    
+    int a = 5;
+    int b = 5;
+    int c = a+b;
+
+    return c;
+}
+
+```
+----
 
 
 
