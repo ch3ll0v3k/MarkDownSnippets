@@ -26,9 +26,9 @@
 ----
 ##### -> Ordered lists (1) <- H5-Header
 
-1. A
-2. B
-3. C
+- 1. A
+- 2. B
+- 3. C
 
 ----
 ##### -> Nested lists (1) <- H5-Header
